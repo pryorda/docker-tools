@@ -5,7 +5,7 @@ RUN apt-get update && apt-get install -qq -y \
   curl \
   ca-certificates \
   openssl \
-  net-snmp-tools \
+  snmp \
   nmap \
   nano \
   httpie\
