@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM ubuntu:latest
 
 RUN apk add --no-cache \
   bash \
@@ -7,6 +7,7 @@ RUN apk add --no-cache \
   openssl \
   net-snmp-tools \
   nmap \
+  nano \
   httpie\
   jq
 
